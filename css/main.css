@@ -32,6 +32,7 @@ html {
 
 .toggle:hover {
     background-image: url("../images/toggle-hover.svg");
+    cursor: pointer;
 }    
 
 .bmd {
@@ -138,4 +139,14 @@ html {
 
 .h2-bmd {
     text-align: center;
+}
+
+.arrow {
+    position: relative;
+    background-image: url("../images/arrow.svg");
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    transition: all 0.5s linear;
+    margin-left: 0.3%;
 }
