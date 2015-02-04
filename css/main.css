@@ -21,39 +21,49 @@ html {
     box-sizing: inherit;
 }
 
-.toggle {
+.banner {
     position: relative;
-    background-image: url("../images/toggle.svg");
+}
+
+.toggle {
+    background-image: url("../images/toggle2.svg");
+    background-size: 50px 100px;
+    background-position: center bottom;
     background-repeat: no-repeat;
     height: 50px;
     width: 50px;
-    transition: all 0.5s linear;
+    transition: all 0.1s linear;
 }
 
 .toggle:hover {
-    background-image: url("../images/toggle-hover.svg");
+    background-position: center top;
     cursor: pointer;
 }    
 
 .bmd {
-    background-image: url("../images/bernese-bw.svg");
-    height: 300px;
-    width: 300px;
+    background-image: url("../images/bernese2.svg");
+    background-size: 256px 512px;
+    height: 256px;
+    width: 256px;
+    background-position: center bottom;
     background-repeat: no-repeat;
-    transition: all 0.3s linear;
+    transition: all 0.1s linear;
     margin: 0 auto;
-    margin-top: 5%;
+    margin-top: 8%;
 }
 
 .bmd:hover {
-    background-image: url("../images/bernese.svg");
+    background-position: center top;
 }
 
 .ball-bounce {
     background-image: url("../images/ball.svg");
     background-repeat: no-repeat;
-    height: 50px;
-    width: 50px;
+    background-size: 45px 45px;
+    height: 300px;
+    width: 400px;
+    left: calc(50% - 200px);
+    margin-top: 8%;
     position: absolute;
     -webkit-animation: bounce 2s linear forwards alternate;
     animation: bounce 2s linear forwards alternate;
@@ -65,23 +75,23 @@ html {
     }
     
     20% {
-        -webkit-transform: translateY(250px);
+        -webkit-transform: translateY(180px);
     }
     
     40% {
-        -webkit-transform: translateY(100px);
+        -webkit-transform: translateY(25px);
     }
     
     60% {
-        -webkit-transform: translateY(250px);
+        -webkit-transform: translateY(150px);
     }
     
     80% {
-        -webkit-transform: translateY(75px);
+        -webkit-transform: translateY(45px);
     }
     
     100% {
-        -webkit-transform: translateY(250px);
+        -webkit-transform: translateY(180px);
     }
 }
 
@@ -91,23 +101,23 @@ html {
     }
     
     20% {
-        transform: translateY(250px);
+        transform: translateY(180px);
     }
     
     40% {
-        transform: translateY(100px);
+        transform: translateY(25px);
     }
     
     60% {
-        transform: translateY(250px);
+        transform: translateY(180px);
     }
     
     80% {
-        transform: translateY(75px);
+        transform: translateY(45px);
     }
     
     100% {
-        transform: translateY(250px);
+        transform: translateY(180px);
     }
 }
 
@@ -142,11 +152,11 @@ html {
 }
 
 .arrow {
-    position: relative;
+    position: absolute;
     background-image: url("../images/arrow.svg");
     background-repeat: no-repeat;
     height: 40px;
     width: 40px;
     transition: all 0.5s linear;
-    margin-left: 0.3%;
+    margin: 0.3%;
 }
