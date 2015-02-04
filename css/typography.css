@@ -2,6 +2,14 @@ html {
   font: normal 100%/1.5 Georgia,serif;
 }
 
+.h2-bmd {
+    font-family: 'Chewy', cursive;
+}
+
+.bmd-intro {
+    font-family: 'Chewy', cursive;
+}
+
 @media only screen and (min-width: 60em) {
 
   html {

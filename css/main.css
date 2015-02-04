@@ -13,7 +13,7 @@ html {
   text-size-adjust: 100%;
 
     font: normal 100%/1.5 sans-serif;
-    color: #fff;
+    color: #000;
     background-color: #E4E1DC;
 }
 
@@ -22,7 +22,7 @@ html {
 }
 
 .toggle {
-    position: absolute;
+    position: relative;
     background-image: url("../images/toggle.svg");
     background-repeat: no-repeat;
     height: 50px;
@@ -36,48 +36,86 @@ html {
 
 .bmd {
     background-image: url("../images/bernese-bw.svg");
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     background-repeat: no-repeat;
     transition: all 0.3s linear;
     margin: 0 auto;
+    margin-top: 5%;
 }
 
 .bmd:hover {
     background-image: url("../images/bernese.svg");
 }
 
-.paws-bg {
-    background-image: url("../images/paw1.svg");
+.ball-bounce {
+    background-image: url("../images/ball.svg");
     background-repeat: no-repeat;
-    height: 100vh;
-    width: 20%;
-    -webkit-animation: rotate 30s ease-in-out alternate infinite;
-    animation: rotate 30s ease-in-out alternate infinite;
-    transform-origin: center;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin: auto 0;
+    -webkit-animation: bounce 2s linear forwards alternate;
+    animation: bounce 2s linear forwards alternate;
 }
 
-@-webkit-keyframes rotate {
+@-webkit-keyframes bounce {
     0% {
-        -webkit-transform: rotate(0deg);
+        -webkit-transform: translateY(0px);
+    }
+    
+    20% {
+        -webkit-transform: translateY(250px);
+    }
+    
+    40% {
+        -webkit-transform: translateY(100px);
+    }
+    
+    60% {
+        -webkit-transform: translateY(250px);
+    }
+    
+    80% {
+        -webkit-transform: translateY(75px);
     }
     
     100% {
-        -webkit-transform: rotate(360deg);
+        -webkit-transform: translateY(250px);
     }
 }
 
-@keyframes rotate {
+@keyframes bounce {
     0% {
-        transform: rotate(0deg);
+        transform: translateY(0px);
+    }
+    
+    20% {
+        transform: translateY(250px);
+    }
+    
+    40% {
+        transform: translateY(100px);
+    }
+    
+    60% {
+        transform: translateY(250px);
+    }
+    
+    80% {
+        transform: translateY(75px);
     }
     
     100% {
-        transform: rotate(360deg);
+        transform: translateY(250px);
     }
 }
 
 .bmd-intro {
+    text-align: center;
+}
+
+.h2-bmd {
     text-align: center;
     color: #000;
 }
