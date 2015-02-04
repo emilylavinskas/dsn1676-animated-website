@@ -13,8 +13,8 @@ html {
   text-size-adjust: 100%;
 
     font: normal 100%/1.5 sans-serif;
-    color: #000;
-    background-color: #E4E1DC;
+    color: #fff;
+    background-color: #70CACB;
 }
 
 *, *::before, *::after {
@@ -54,7 +54,6 @@ html {
     height: 50px;
     width: 50px;
     position: absolute;
-    margin: auto 0;
     -webkit-animation: bounce 2s linear forwards alternate;
     animation: bounce 2s linear forwards alternate;
 }
@@ -117,5 +116,4 @@ html {
 
 .h2-bmd {
     text-align: center;
-    color: #000;
 }
