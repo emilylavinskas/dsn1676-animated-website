@@ -112,6 +112,28 @@ html {
 
 .bmd-intro {
     text-align: center;
+    -webkit-animation: scale 5s ease-in-out alternate infinite;
+    animation: scale 5s ease-in-out alternate infinite;
+}
+
+@-webkit-keyframes scale {
+    0% {
+        -webkit-transform: scale(1,1);
+    }
+    
+    100% {
+        -webkit-transform: scale(1.5,1.5);
+    }
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1,1);
+    }
+    
+    100% {
+        transform: scale(1.5,1.5);
+    }
 }
 
 .h2-bmd {
