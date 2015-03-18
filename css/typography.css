@@ -3,11 +3,27 @@ html {
 }
 
 .h2-bmd {
-    font-family: 'Chewy', cursive;
+    font-family: 'Playfair Display', serif;
 }
 
 .bmd-intro {
-    font-family: 'Chewy', cursive;
+    font-family: 'Bangers', cursive;
+}
+
+.nav {
+    font-family: 'Bangers', cursive;
+}
+
+.btns {
+    font-family: 'Bangers', cursive;
+}
+
+.body-copy {
+    font-family: 'Playfair Display', serif;
+}
+
+.about-issues-adopt-titles {
+     font-family: 'Playfair Display', serif;
 }
 
 @media only screen and (min-width: 60em) {
