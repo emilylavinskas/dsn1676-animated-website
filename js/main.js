@@ -1,8 +1,8 @@
 var $btnExpand = $(".btn-expand");
-var $panel = $('.panel');
+var $togglePanel = $('.toggle-panel');
 
 $btnExpand.on('click', function() {
-    $panel.toggleClass('js-panel-expand');
+    $togglePanel.toggleClass('toggle-panel-expand');
 });
 
 var $btnAboutExpand = $('.btn-about-expand');

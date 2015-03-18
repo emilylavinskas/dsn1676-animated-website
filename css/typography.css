@@ -2,6 +2,10 @@ html {
   font: normal 100%/1.5 Georgia,serif;
 }
 
+.bmd-title {
+    font-family: 'Bangers', cursive;
+}
+
 .h2-bmd {
     font-family: 'Playfair Display', serif;
 }
