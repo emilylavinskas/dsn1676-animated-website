@@ -3,12 +3,12 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#F15A29;stroke-width:4;stroke-miterlimit:10;}
-	.st1{fill:#F15C2C;}
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;}
 </style>
 <circle class="st0" cx="25" cy="25" r="19.4"/>
-<line class="st0" x1="25.2" y1="36.7" x2="25.2" y2="20.7"/>
-<polygon class="st1" points="16.6,26.6 20.9,19.2 25.1,11.7 29.4,19.1 33.7,26.5 25.2,26.6 "/>
+<line class="st0" x1="24.8" y1="13.3" x2="24.8" y2="29.3"/>
+<polygon class="st1" points="33.4,23.4 29.1,30.8 24.9,38.3 20.6,30.9 16.3,23.5 24.8,23.4 "/>
 <g>
 </g>
 <g>

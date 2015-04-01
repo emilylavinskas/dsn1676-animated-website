@@ -13,17 +13,18 @@
 <body>
 <main>
     <div class="banner">  
-        <img class="btn-expand" src="images/toggle-hover.svg" alt="toggle">
+        <a href="#up"><img class="btn-expand" src="images/toggle-hover.svg" alt="toggle"></a>
         <p class="bmd-title peta">Bernese Mountain Dogs of Canada</p>
         <div class="toggle-panel unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-1-3">
             <nav role="navigation" id="nav">
                 <ul class="nav">
                     <li><a class="tera gutter-half" href="#">About</a></li>
                     <li><a class="tera gutter-half" href="#">Concerns</a></li>
-                    <li><a class="tera gutter-half" href="#">Adopt</a></li>
+                    <li class="adopt"><a class="tera gutter-half" href="#adopt">Adopt</a></li>
                 </ul>
             </nav>
         </div>
+    
         <div class="header">
             
             <div class="ball-bounce"></div>
@@ -36,13 +37,15 @@
                 <p class="mega">One of four Sennenhund-type dogs from the Swiss Alps.</p>
             </div> 
             
-            <div class="arrow"></div>
+            <div class="scrolldown">
+                <a href="#down"><img src="images/arrow1.svg" alt="scroll"></a>
+            </div>
         </div>
     </div>
 
     <section class="btns-center">
         <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
-        <button class="btns btn-about-expand yotta">About...</button> 
+        <a id="down"><button class="btns btn-about-expand yotta">About...</button></a>
             <hr>
             <div class="about-panel">
                 <p class="about-issues-adopt-titles yotta">General Appearance</p>
@@ -82,7 +85,7 @@
     
     <section class="btns-center">
         <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
-        <button class="btns btn-adopt-expand yotta">Adopt...</button>
+        <a id="adopt"><button class="btns btn-adopt-expand yotta">Adopt...</button></a>
             <hr>
             <div class="adopt-panel">
                 <p class="about-issues-adopt-titles yotta">Ottawa Humane Society</p>
@@ -93,9 +96,15 @@
             </div>
             </div>
     </section>
+    
+    <div class="scrollup">
+        <a href="#up"><img src="images/arrow2.svg" alt="scroll"></a>
+    </div>
 </main>
     
     <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

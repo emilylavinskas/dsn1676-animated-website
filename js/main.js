@@ -25,3 +25,9 @@ var $panelAdopt = $('.adopt-panel');
 $btnAdoptExpand.on('click', function () {
     $panelAdopt.toggleClass('adopt-open');
 });
+
+$('.scrolldown').localScroll();
+
+$('.scrollup').localScroll();
+
+$('.adopt').localScroll();
