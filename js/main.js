@@ -31,3 +31,7 @@ $('.scrolldown').localScroll();
 $('.scrollup').localScroll();
 
 $('.adopt').localScroll();
+
+$('.about').localScroll();
+
+$('.concerns').localScroll();
