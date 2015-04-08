@@ -340,6 +340,6 @@ hr {
     transition: all 200ms ease;
 }
 
-#body:hover #paw {
-    transform: translateY(-15px);
+#paw:hover {
+    transform: translateY(-28px);
 }
