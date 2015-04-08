@@ -307,6 +307,8 @@ hr {
 
 .dog-svg {
     max-height: 15em;
+    margin: auto 0;
+    margin-top: 2em;
 }
 
 #paw { 
@@ -315,5 +317,5 @@ hr {
 }
 
 #body:hover #paw {
-    transform: translateY(20px);
+    transform: translateY(-15px);
 }
