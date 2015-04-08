@@ -305,6 +305,30 @@ hr {
     max-height: 75em;
 }
 
+.st0 {
+    fill:#080808;
+} 
+
+.st1 {
+    fill:#864324;
+} 
+
+.st2 {
+    fill:#D7D8D6;
+} 
+
+.st3 {
+    fill:#DFE1DF;
+} 
+
+.st4 {
+    fill:#171717;
+} 
+
+.st5 {
+    fill:#C6AFC4;
+}
+
 .dog-svg {
     max-height: 15em;
     margin: auto 0;
