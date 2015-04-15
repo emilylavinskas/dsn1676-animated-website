@@ -31,3 +31,9 @@ $('.scrolldown').localScroll();
 $('.scrollup').localScroll();
 
 $('.adopt').localScroll();
+
+var $pawSection = $('.js-paw');
+
+$pawSection.onClick(function () {
+    $pawSection.toggleClass('js-paw-active');
+}, {offset: '65%'});

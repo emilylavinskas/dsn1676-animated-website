@@ -335,11 +335,11 @@ hr {
     margin-top: 2em;
 }
 
-#paw { 
+#paw {
     transform: translateY(0px);
     transition: all 200ms ease;
 }
 
-#paw:hover {
+.js-paw-active #paw {
     transform: translateY(-28px);
 }
