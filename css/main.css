@@ -282,7 +282,7 @@ hr {
 }
 
 .issues-panel {
-    max-height: 75em;
+    max-height: 87em;
     overflow: hidden;
     transition: all linear 1s;
 }
@@ -368,4 +368,25 @@ hr {
 
 .bmdoc:hover {
     color: #000;
+}
+
+.skip-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip-links a {
+    position: absolute;
+    top: -3em;
+    padding: 0;
+    background-color: #ef4136;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-decoration: none;
+}
+
+.skip-links a:focus {
+    top: 0;
 }
