@@ -168,6 +168,7 @@ body {
     margin: 0 auto;
     height: 50px;
     width: 50px;
+    padding-bottom: 2em;
 }
 
 .btn-expand {
@@ -217,7 +218,7 @@ body {
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
-    padding-bottom: 5em;
+    padding-bottom: 2.5em;
 }
 
 hr {
@@ -306,27 +307,27 @@ hr {
 }
 
 .st0 {
-    fill:#080808;
+    fill: #080808;
 } 
 
 .st1 {
-    fill:#864324;
+    fill: #864324;
 } 
 
 .st2 {
-    fill:#D7D8D6;
+    fill: #D7D8D6;
 } 
 
 .st3 {
-    fill:#DFE1DF;
+    fill: #DFE1DF;
 } 
 
 .st4 {
-    fill:#171717;
+    fill: #171717;
 } 
 
 .st5 {
-    fill:#C6AFC4;
+    fill: #C6AFC4;
 }
 
 .dog-svg {
@@ -346,3 +347,25 @@ hr {
     transform: translateY(-28px);
 }
 
+.copyright {
+    color: #ef4136;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.copyright-name {
+    padding-bottom: 1em;
+    color: #ef4136;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bmdoc {
+    color: #a2dadd;
+    text-decoration: none;
+}
+
+.bmdoc:hover {
+    color: #000;
+}
