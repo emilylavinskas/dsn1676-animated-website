@@ -181,6 +181,7 @@ body {
     max-height: 0;
     overflow: hidden;
     transition: all 200ms linear;
+    cursor: pointer;
 }
 
 .toggle-panel-expand {
