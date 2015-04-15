@@ -34,6 +34,6 @@ $('.adopt').localScroll();
 
 var $pawSection = $('.js-paw');
 
-$pawSection.waypoint(function () {
+$pawSection.on('click', function () {
     $pawSection.toggleClass('js-paw-active');
-}, {offset: '50%'});
+});
