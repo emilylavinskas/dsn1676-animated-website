@@ -30,6 +30,10 @@ $('.scrolldown').localScroll();
 
 $('.scrollup').localScroll();
 
+$('.about').localScroll();
+
+$('.concerns').localScroll();
+
 $('.adopt').localScroll();
 
 var $pawSection = $('.js-paw');

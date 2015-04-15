@@ -256,13 +256,13 @@ hr {
 }
 
 .about-panel {
-    max-height: 0;
+    max-height: 75em;
     overflow: hidden;
     transition: all linear 1s;
 }
 
 .about-open {
-    max-height: 75em;
+    max-height: 0;
 }
 
 .about-issues-adopt-titles {
@@ -281,13 +281,13 @@ hr {
 }
 
 .issues-panel {
-    max-height: 0;
+    max-height: 75em;
     overflow: hidden;
     transition: all linear 1s;
 }
 
 .issues-open {
-    max-height: 75em;
+    max-height: 0;
 }
 
 .btn-adopt-expand {
@@ -296,13 +296,13 @@ hr {
 }
 
 .adopt-panel {
-    max-height: 0;
+    max-height: 75em;
     overflow: hidden;
     transition: all linear 1s;
 }
 
 .adopt-open {
-    max-height: 75em;
+    max-height: 0;
 }
 
 .st0 {
