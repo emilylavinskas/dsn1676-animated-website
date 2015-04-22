@@ -390,3 +390,7 @@ hr {
 .skip-links a:focus {
     top: 0;
 }
+
+a:focus {
+    outline: 3px solid #ef4136;
+}
